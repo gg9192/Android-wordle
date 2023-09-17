@@ -475,9 +475,9 @@ class AutoplayGuessManager {
     }
 
 
-    /*
-    * runs the next enqueued job
-    */
+    /**
+     * runs the next enqueued job
+     */
     fun runJob() {
         if (!q.isEmpty()) {
             //if we have a job
