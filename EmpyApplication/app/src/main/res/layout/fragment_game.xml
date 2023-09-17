@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gameFrag"
+    tools:context=".GameFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="612dp"
+            android:orientation="vertical"
+            android:id="@+id/gameFragLayout"
+            >
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/gameFragBottom"
+            >
+
+
+            <Button
+                android:id="@+id/autoplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Autoplay" />
+
+            <TextView
+                android:id="@+id/botText"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
