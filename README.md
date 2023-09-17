@@ -1,4 +1,4 @@
 # Android-wordle
-Project wordle clone for a class I am taking.<br>
-Uses multithreading for an autoplayer
-Built with android studio
+Project Wordle clone for a class I am taking.<br>
+Uses multithreading for an autoplayer.<br>
+Built with Android studio.<br>
