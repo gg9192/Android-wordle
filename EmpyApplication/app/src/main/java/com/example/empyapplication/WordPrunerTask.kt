@@ -53,6 +53,9 @@ class WordPrunerTask: Runnable {
             if (fc == 'i' && (!s.contains(guessChar))) {
                 return false
             }
+            if (fc == 'i' && guess[i] == curWord[i]) {
+                return false
+            }
             if (fc == 'n' && s.contains(guessChar)) {
                 return false
             }
